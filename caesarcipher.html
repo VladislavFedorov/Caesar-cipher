@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Caesar cipher</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+<div class="centered">
+<div class="marginLeftAndRight">
+<div class="bold">Key:</div> 
+	<select id="enKey" size="1">
+				<option> 1 </option> <option> 2 </option> <option> 3 </option> <option> 4 </option> <option> 5 </option> <option> 6 </option> <option> 7 </option> 
+                <option> 8 </option> <option> 9 </option> <option> 10 </option> <option> 11 </option> <option> 12 </option> <option> 13 </option> <option> 14 </option> 
+                <option> 15 </option> <option> 16 </option> <option> 17 </option> <option> 18 </option> <option> 19 </option> <option> 20 </option> <option> 21 </option> 
+                <option> 22 </option> <option> 23 </option> <option> 24 </option> <option> 25 </option>
+    </select>
+</div> 
+<div class="marginLeftAndRight">
+    <button id="encrypt" onclick="encryptTheText()"><a href="#">Encrypt!</a></button>
+</div>
+<div class="marginLeftAndRight">
+    <button id="reloadPage" onclick="location.reload()"><a href="#">Reload page</a></button>
+</div> 
+<div class="marginLeftAndRight">
+    <button id="decipher" onclick="decipherTheText()"><a href="#">Decipher</a></button>
+</div>
+<div class="marginLeftAndRight">
+    <button id="information" onclick="location.href='https://en.wikipedia.org/wiki/Caesar_cipher';">Wikipedia</button>
+</div>
+<div class="marginLeftAndRight">
+    <button id="homepage" onclick="location.href='http://vladislavdrews.com';">Homepage</button>
+</div> 
+
+    <br><br>  
+    <textarea id="text"> 
+    How it works:
+        
+ 1. Choose a key;
+ 2. Click on "Encrypt!" or "Decipher";
+ 3. Enter the text;
+ 4. Enjoy. 
+    
+ Works only with the Latin alphabet.
+        
+ Not adapted for mobile devices. Use the Chrome browser.
+
+ -------------------------------
+         Vladislav  Drews
+      www.vladislavdrews.com
+ -------------------------------
+    </textarea>
+
+</div>
+
+
+<script src="scripts.js">  </script>
+
+</body>

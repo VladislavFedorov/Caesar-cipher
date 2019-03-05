@@ -1,0 +1,96 @@
+#text { 
+	width: 600px;
+	height: 290px;
+	resize: none;
+	border-radius: 3px;
+	text-align: justify;
+}
+
+#enKey {
+	width: 50px;
+	border-radius: 3px;
+	height: 25px;
+}
+
+#encrypt {
+	border: 0;
+	border-radius: 3px;
+	height: 25px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+#information {
+	border: 0;
+	border-radius: 3px;
+	height: 25px;
+	background-color: #7B7D7F;
+	color: white;
+	font-weight: bold;
+}
+
+#copy {
+	border: 0;
+	border-radius: 3px;
+	height: 25px;
+	background-color: #005F7F;
+	color: white;
+	font-weight: bold;
+}
+
+#decipher {
+	border: 0;
+	border-radius: 3px;
+	height: 25px;
+	background-color: darkred;
+	color: white;
+	font-weight: bold;
+}
+
+#information a, #information a:visited, #homepage a,
+#homepage a:visited, #reloadPage a, #reloadPage a:visited,
+#encrypt a, #encrypt a:visited, #copy a, #copy a:visited,
+#decipher a, #decipher a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#homepage {
+	border: 0;
+	border-radius: 3px;
+	height: 25px;
+	background-color: #1124B2;
+	color: white;
+	font-weight: bold;
+}
+
+#reloadPage {
+	border: 0;
+	border-radius: 3px;
+	height: 25px;
+	background-color: #1FA927;
+	color: white;
+	font-weight: bold;
+}
+
+.centered {
+	width: 700px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.marginLeftAndRight {
+	margin-left: 9px;
+	margin-right: 9px;
+	display: inline;
+}
+
+.bold {
+	display: inline;
+	font-weight: bold;
+}
+
+textarea {
+	outline: none;
+}
