@@ -48,10 +48,9 @@
 	font-weight: bold;
 }
 
-#information a, #information a:visited, #homepage a,
-#homepage a:visited, #reloadPage a, #reloadPage a:visited,
-#encrypt a, #encrypt a:visited, #copy a, #copy a:visited,
-#decipher a, #decipher a:visited {
+#information a, #information a:visited, #reloadPage a,
+#reloadPage a:visited, #encrypt a, #encrypt a:visited,
+#copy a, #copy a:visited, #decipher a, #decipher a:visited {
 	color: white;
 	text-decoration: none;
 }
